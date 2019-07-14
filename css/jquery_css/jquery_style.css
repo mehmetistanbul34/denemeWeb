@@ -1,0 +1,63 @@
+.Anasayfa{
+    position: absolute;
+    height: 100%;
+    background: white;
+}
+.AnaKutu{
+    position: absolute;
+    height: 75%;
+    background: whitesmoke;
+    border: 7px dashed black;
+    margin: 10px;
+    margin-left:60px;
+    margin-top: 20px; 
+}
+.AltKutu{
+    background: whitesmoke;
+    border: 7px dashed black;
+    margin-left:75px;
+    margin-top: 485px; 
+    width: 1291px;
+    text-align: center;
+    height: 130px;
+}
+.YanKutu{
+    background: whitesmoke;
+    border: 7px dashed black;
+    margin-left:-7px;
+    margin-top: 72px;
+    height: 313px;;
+}
+.basliklar{
+    text-align: center;
+}
+.bolumler,.hakimizdalar,.aktivitelerimiz,.bloglar,.imkanlarimiz,.iletisimler{
+    display: none;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    box-shadow: 5px 12px 25px; 
+}
+.bolumler:hover,.hakimizdalar:hover,.aktivitelerimiz:hover,.bloglar:hover,.imkanlarimiz:hover,.iletisimler:hover{
+    text-align: center;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    box-shadow: 5px 12px 15px rgb(247, 41, 41); 
+    width: 300px;
+}
+button{
+    background: rgb(245, 245, 245,0.5);
+    border: 1px solid whitesmoke;
+    border-radius: 25px;
+    box-shadow: 5px 12px 30px;
+}
+button:hover{
+    box-shadow: 5px 12px 12px;
+}
+button.d:hover{
+    box-shadow: 5px 12px 12px;
+    width: 180px;
+    background: black;
+    color: white;
+    outline: none;
+}
